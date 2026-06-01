@@ -1,0 +1,5 @@
+1. Write the solution steps in English comments.
+2. Circle the main actions/verbs.
+3. Turn repeated or important actions into functions.
+4. Keep main() only for controlling the flow.
+5. If a function does more than one clear job, split it.
