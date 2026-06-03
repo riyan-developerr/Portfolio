@@ -1,14 +1,33 @@
+# Generator=pipeline(
+#     "text-generation",
+#     model="Qwen/Qwen3-0.6B"
+# )
 from transformers import pipeline
+import csv
 
-# classifier=pipeline("text-classification")
-# result=classifier("this movie is just mehhh")
-# print(result)
+classifier=pipeline("text-classification",
+                    model="distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+)
 
-def Summarizer(text):
-    summarizer_pipe=pipeline("summarization")
-    result=summarizer_pipe(text,min_len=10,max_len=30)
-    return result
+def Classification(text):
+    result=classifier(text)
+    return result[0]["label"],result[0]["score"]
 
-text="Artificial intelligence is rapidly transforming the way people study, work, and solve problems. In education, AI tools can help students understand difficult concepts, summarize long notes, practice coding, and receive personalized feedback. In business, AI automation can save time by handling repetitive tasks such as email replies, data entry, customer support, and report generation. However, AI should be used carefully because it can sometimes produce incorrect information, depend on biased data, or reduce human critical thinking if used blindly. Therefore, the best approach is to use AI as an assistant, not as a replacement for human effort, creativity, and decision-making."
-summary=Summarizer(text)
-print(summary)
+def Analysis(file):
+    with open(file,"r") as infile, \
+    open("analysis.csv","w",newline="") as outfile:
+        writer=csv.writer(outfile)
+        writer.writerow(["line","label","score"])
+        for lines in infile:
+            lines=lines.strip()
+            if not lines:
+                continue
+            label,score =Classification(lines)
+            writer.writerow([lines,label,score])
+
+ 
+file="classification_data.txt"           
+Analysis(file)
+
+#mistake:
+# csv writer writer.writerow() takes list as input
