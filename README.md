@@ -23,3 +23,48 @@ I also practiced working with real AI libraries and solved multiple coding issue
 Another important part of today’s work was experimenting with image generation using Stable Diffusion in Google Colab. I learned how to install required libraries, enable T4 GPU, fix package version conflicts between `diffusers` and `transformers`, generate an image from a prompt, display it in Colab, and save the final output. Finally, I planned how to move my Colab notebook into VS Code and push my work to GitHub so I can keep a proper record of my learning progress.
 
 **Encouraging message:** Every small experiment today is building the foundation for the AI expert I want to become.
+
+# Thursday, June 4, 2026
+
+## Daily Learning Record — Pandas Data Exploration and Preprocessing
+
+Today, I practiced basic data analysis and preprocessing using Python and Pandas in Google Colab. I worked with a student performance dataset and learned how to load, inspect, understand, and prepare data for future machine learning tasks.
+
+## Work Completed
+
+I started by installing and importing the required library, `pandas`, and then loaded the dataset using `pd.read_csv()`. After loading the dataset, I used `df.head()` to view the first few rows and understand the structure of the data.
+
+I checked the size of the dataset using `df.shape`, which showed that the dataset contains 100 rows and 10 columns. This helped me understand the number of records and features available in the dataset.
+
+I explored the data types of each column using `df.dtypes`. I learned which columns were numerical and which columns were categorical, such as the `gender` column.
+
+I used `df.tail(10)` to view the last 10 rows of the dataset. This helped me confirm that the data was loaded properly from start to end.
+
+I used `df.info()` to get a complete summary of the dataset, including column names, non-null counts, data types, and memory usage. This helped me understand the overall health and structure of the dataset.
+
+I used `df.describe()` to generate statistical information about the numerical columns, including mean, minimum, maximum, standard deviation, and quartile values. This gave me a better understanding of the distribution of values in the dataset.
+
+I checked for missing values using `df.isnull().sum()`. The result showed that there were no missing values in any column, which means the dataset was clean in terms of null values.
+
+Finally, I practiced categorical data preprocessing by using `pd.get_dummies()` on the `gender` column. This converted the gender category into numerical columns, `gender_Female` and `gender_Male`, making the dataset more suitable for machine learning models.
+
+## Concepts Practiced
+
+* Installing and importing Pandas
+* Reading CSV files with `pd.read_csv()`
+* Viewing first and last rows using `head()` and `tail()`
+* Checking dataset shape
+* Checking column data types
+* Understanding dataset summary with `info()`
+* Generating statistical summary with `describe()`
+* Checking missing values with `isnull().sum()`
+* Encoding categorical columns using `pd.get_dummies()`
+
+## Key Learning
+
+Today, I learned that before applying machine learning models, it is important to first understand the dataset properly. Data exploration helps identify column types, missing values, value ranges, and preprocessing needs. I also learned that categorical columns like gender must be converted into numerical form before they can be used by most machine learning algorithms.
+
+## Encouraging Message
+
+Every dataset I explore is making me stronger in data preprocessing and bringing me one step closer to becoming skilled in machine learning.
+
