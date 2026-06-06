@@ -8,6 +8,9 @@ This project is my MVP version: the system is intentionally built around a stabl
 
 ## Demo Status
 
+DEMO VIDEO LINK:
+(https://youtu.be/yOa6xhv7EJ0)
+
 **MVP achieved:** Yes  
 **Current output:** Short vertical MP4 product ad  
 **Current backend:** Template motion engine using MoviePy/FFmpeg  
@@ -190,7 +193,23 @@ Open the local Gradio URL shown in the terminal, usually:
 ```text
 http://127.0.0.1:7860
 ```
+## Option 1 — Quick demo link, easiest
 
+Open app.py and change the last line from:
+
+demo.launch()
+
+to:
+
+demo.launch(share=True)
+
+Then run:
+
+cd /d "D:\Projects\marketing-video-generator"
+conda activate "D:\conda_envs\MarketingProject"
+python app.py
+
+It will give you a public gradio.live link that you can share with others. The app will run from your laptop, so your laptop and terminal must stay on while people use it. Gradio supports public share links using share=True.
 ---
 
 ## How to Use
