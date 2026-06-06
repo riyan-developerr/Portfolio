@@ -178,3 +178,10 @@ Today’s work improved my understanding of how data analysts explore datasets b
 
 Small daily progress compounds into real skill — keep showing up and keep building.
 
+# Saturday 6-6-2026 Made first self-Project
+
+## Today's Progress — Marketing Video Generator MVP
+
+Today I built the first working MVP of my AI-assisted Marketing Video Generator. I set up the complete project structure, created a Conda environment, installed the required packages, tested a local Qwen model, and connected the full pipeline from product image upload to final video export. The system can now take a product image and description, generate a scene plan, remove the product background, create styled ad scenes, add motion effects, music, SFX, and export a final MP4/GIF video through a Gradio interface.
+
+I also added important engineering features such as a pipeline controller, backend structure for future AI video generation, prompt preparation for ComfyUI/Diffusers, scoring and CSV logging, and professional documentation files. The current version is not perfect, but it is a complete working MVP that proves the core idea works. Future improvements will focus on better backgrounds, smoother text animation, stronger transitions, product enhancement, and optional AI-generated video scenes.
