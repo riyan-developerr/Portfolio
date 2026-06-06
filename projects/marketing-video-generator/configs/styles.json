@@ -1,0 +1,42 @@
+{
+  "luxury": {
+    "colors": ["#111111", "#D4AF37", "#F5E6B3"],
+    "bg_type": "dark_glow",
+    "font_style": "bold clean",
+    "motions": ["slow_zoom_in", "glow_pulse", "light_sweep"],
+    "text_color": "#F5E6B3",
+    "accent_color": "#D4AF37"
+  },
+  "tech": {
+    "colors": ["#0B0F1A", "#00D1FF", "#A6F6FF"],
+    "bg_type": "futuristic_gradient",
+    "font_style": "modern sharp",
+    "motions": ["digital_pan", "neon_flash", "slide_in"],
+    "text_color": "#A6F6FF",
+    "accent_color": "#00D1FF"
+  },
+  "skincare": {
+    "colors": ["#F7F2EE", "#D7C3B0", "#8C6F5A"],
+    "bg_type": "soft_clean",
+    "font_style": "minimal elegant",
+    "motions": ["gentle_zoom", "fade_up", "soft_glow"],
+    "text_color": "#8C6F5A",
+    "accent_color": "#D7C3B0"
+  },
+  "fashion": {
+    "colors": ["#1A1A1A", "#FFFFFF", "#C0C0C0"],
+    "bg_type": "editorial_clean",
+    "font_style": "sleek editorial",
+    "motions": ["smooth_pan", "fade_in", "subtle_zoom"],
+    "text_color": "#FFFFFF",
+    "accent_color": "#C0C0C0"
+  },
+  "fitness": {
+    "colors": ["#111111", "#FF5A36", "#FFFFFF"],
+    "bg_type": "energetic_contrast",
+    "font_style": "strong bold",
+    "motions": ["quick_zoom", "punch_in", "slide_up"],
+    "text_color": "#FFFFFF",
+    "accent_color": "#FF5A36"
+  }
+}

@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+*.env
+
+# Large/generated outputs
+output/
+input/
+*.mp4
+*.gif
+*.mov
+*.avi
+*.mkv
+
+# Audio assets - keep placeholders, avoid committing licensed files accidentally
+assets/music/*.mp3
+assets/music/*.wav
+assets/sfx/*.mp3
+assets/sfx/*.wav
+
+# Keep folder placeholders if you add them
+!assets/music/.gitkeep
+!assets/sfx/.gitkeep
+!input/.gitkeep
+!output/.gitkeep
+
+# Local models/cache
+models/
+.ai_models/
+.cache/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

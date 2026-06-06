@@ -1,0 +1,5 @@
+run_id,created_at,product_name,status,output_path 
+20260606_125409,2026-06-06 12:54:09,Lumière Paris Radiance Boost Essence,luxury,12,success,output\final_video_20260606_125409.mp4
+20260606_131957,2026-06-06 13:19:57,Lumière Paris Radiance Boost Essence,luxury,12,success,output\final_video_20260606_131957.mp4
+20260606_133748,2026-06-06 13:37:48,Lumière Paris Radiance Boost Essence,luxury,12,success,output\final_video_20260606_133748.mp4
+20260606_143549,2026-06-06 14:35:49,Lumière Paris Radiance Boost Essence,fashion,12,template,success,output\final_video_20260606_143549.mp4
