@@ -185,3 +185,89 @@ Small daily progress compounds into real skill — keep showing up and keep buil
 Today I built the first working MVP of my AI-assisted Marketing Video Generator. I set up the complete project structure, created a Conda environment, installed the required packages, tested a local Qwen model, and connected the full pipeline from product image upload to final video export. The system can now take a product image and description, generate a scene plan, remove the product background, create styled ad scenes, add motion effects, music, SFX, and export a final MP4/GIF video through a Gradio interface.
 
 I also added important engineering features such as a pipeline controller, backend structure for future AI video generation, prompt preparation for ComfyUI/Diffusers, scoring and CSV logging, and professional documentation files. The current version is not perfect, but it is a complete working MVP that proves the core idea works. Future improvements will focus on better backgrounds, smoother text animation, stronger transitions, product enhancement, and optional AI-generated video scenes.
+
+# Summer Vacation Journey
+
+## Sunday, June 7, 2026
+
+### Topic: Introduction to Digital Marketing
+
+Today, I learned the basics of **digital marketing** and understood how businesses promote their products and services online. The main focus of today’s learning was to understand how online campaigns work, what role creatives play, and how leads are generated through marketing efforts.
+
+## What I Learned Today
+
+### 1. What is Digital Marketing?
+
+Digital marketing means promoting products, services, brands, or ideas using online platforms such as:
+
+* Social media
+* Websites
+* Search engines
+* Email
+* YouTube
+* Online ads
+* Content platforms
+
+I understood that digital marketing is not only about posting content online. It is about reaching the right people, showing them the right message, and encouraging them to take action.
+
+## 2. What is a Campaign?
+
+A campaign is a planned marketing activity designed to achieve a specific goal. For example, a business may run a campaign to:
+
+* Get more customers
+* Increase sales
+* Collect leads
+* Promote a new product
+* Increase brand awareness
+* Bring traffic to a website
+
+I learned that every campaign should have a clear objective. Without a clear goal, it becomes difficult to measure whether the campaign was successful or not.
+
+## 3. What is a Creative?
+
+Today, I also learned what “creative” means in marketing.
+
+A creative is the actual visual or message used in an advertisement. It can be:
+
+* An image
+* A video
+* A poster
+* A banner
+* Ad copy
+* A short promotional clip
+* A product graphic
+
+The creative is very important because it is the first thing people see when they come across an ad. A good creative grabs attention, explains the offer clearly, and encourages people to take action.
+
+## 4. What are Leads?
+
+I learned that leads are potential customers who show interest in a product or service.
+
+For example, if someone fills out a form, sends a message, signs up, or shares their contact details, they become a lead. Leads are important because businesses can later contact these people and convert them into customers.
+
+## Key Takeaways
+
+* Digital marketing is about promoting products and services online.
+* A campaign should always have a clear goal.
+* Creatives are the images, videos, or messages used in ads.
+* A good creative can increase attention and engagement.
+* Leads are people who show interest in a product or service.
+* The main purpose of many campaigns is to collect leads or generate sales.
+
+## Reflection
+
+Today’s learning helped me understand the basic structure behind online marketing. I realized that digital marketing is not random posting. It is a proper system where we define a goal, create attractive content, run campaigns, and measure results.
+
+This knowledge is also useful for my AI and automation journey because AI tools can be used to generate ad creatives, write marketing copy, analyze campaign performance, and automate lead generation workflows.
+
+## Progress Status
+
+✅ Learned the meaning of digital marketing
+✅ Understood what campaigns are
+✅ Learned the meaning of creatives
+✅ Understood what leads are
+✅ Connected digital marketing with AI automation ideas
+
+## One-Line Motivation
+
+Today I learned how online marketing works, and every new concept is bringing me one step closer to building practical AI-powered business solutions.
