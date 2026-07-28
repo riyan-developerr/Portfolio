@@ -49,7 +49,6 @@ It includes detailed information on:
 
 - Then, I transformed each query by changing column types, removing unnecessary columns, cleaning text to eliminate specific words, and trimming excess whitespace.
     - 📊 data_jobs_all
-
         ![2_Project_Analysis_Screenshot1.png](/Images/2_Project_Analysis_Screenshot1.png)
 
     - 🛠️ data_job_skills
